@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #8B4513; /* SaddleBrown - Wood/Construction */
+  --color-brand-secondary: #2F4F4F; /* DarkSlateGray - Roofs/Solidity */
+  --color-brand-accent: #25D366; /* WhatsApp Green */
+  --color-brand-cta: #E67E22; /* Carrot Orange - High contrast CTA */
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
