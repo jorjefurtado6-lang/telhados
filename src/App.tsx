@@ -829,7 +829,7 @@ export default function App() {
           </div>
 
           <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-            <p>© 2026 Só Telhados. Todos os direitos reservados.</p>
+            <p>© 2026 Só Telhados. Todos os direitos reservados. Desenvolvido por <a href="https://nandosilvadev.site" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">Nando Silva</a>.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
               <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
