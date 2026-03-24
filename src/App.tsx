@@ -54,8 +54,8 @@ interface Testimonial {
 // --- Data ---
 const SERVICES: Service[] = [
   {
-    id: 'reparo',
-    title: 'Reparo de Telhados',
+    id: 'reforma',
+    title: 'Reforma de Telhados',
     description: 'Correção de infiltrações, troca de peças danificadas e recuperação da estrutura.',
     icon: <Droplets className="w-6 h-6" />,
     image: 'https://lh3.googleusercontent.com/d/13ovdM8vMYumXEIZkp_nF4zhPwPhVr5fe'
@@ -101,41 +101,41 @@ const PROJECTS: Project[] = [
   { id: 1, title: 'Reforma Estrutural ABC', category: 'Telhados', location: 'Santo André', description: 'Troca completa de telhas e reforço de madeiramento.', image: 'https://lh3.googleusercontent.com/d/1mfBmEyRRFUkeV_9HuzVHCeWtaQHbDPe-' },
   { id: 2, title: 'Pergolado Gourmet', category: 'Pergolados', location: 'São Bernardo do Campo', description: 'Estrutura em madeira nobre com cobertura de vidro.', image: 'https://lh3.googleusercontent.com/d/12gUcQzEmlfzTZ11y_amqikudTFBoahIA' },
   { id: 3, title: 'Deck Piscina Residencial', category: 'Decks', location: 'São Caetano do Sul', description: 'Instalação de deck em madeira tratada ao redor da piscina.', image: 'https://lh3.googleusercontent.com/d/1iOZ9cBxwgw7DC_4_snOa0LntfNgJJdNs' },
-  { id: 4, title: 'Reparo Urgente Infiltração', category: 'Reparos', location: 'São Bernardo do Campo', description: 'Localização e vedação de pontos críticos de vazamento.', image: 'https://lh3.googleusercontent.com/d/1J29xL0AqcFtwAB2sAu7bBlmDo9m3MaSr' },
+  { id: 4, title: 'Reforma Urgente Infiltração', category: 'Reformas', location: 'São Bernardo do Campo', description: 'Localização e vedação de pontos críticos de vazamento.', image: 'https://lh3.googleusercontent.com/d/1J29xL0AqcFtwAB2sAu7bBlmDo9m3MaSr' },
   { id: 5, title: 'Telhado Comercial Moderno', category: 'Telhados', location: 'Diadema', description: 'Cobertura metálica com isolamento térmico.', image: 'https://lh3.googleusercontent.com/d/1j_BDpPmmgDB2I6l8ceIewXovLI2xaVwm' },
   { id: 6, title: 'Projeto Residencial', category: 'Telhados', location: 'SBC', description: 'Execução de telhado colonial.', image: 'https://lh3.googleusercontent.com/d/1yuJKDWHmDGsrRGqovoJuUmRPfq1glB2v' },
   { id: 7, title: 'Área Gourmet', category: 'Pergolados', location: 'Santo André', description: 'Pergolado com forro de bambu.', image: 'https://lh3.googleusercontent.com/d/1YWv3vuDpinH3FSZEw7OJPqlZAIzKCJbC' },
   { id: 8, title: 'Deck de Madeira', category: 'Decks', location: 'São Caetano', description: 'Deck em madeira cumaru.', image: 'https://lh3.googleusercontent.com/d/1jzwG_NtbtBUJRLS2eheGFeJNgxUfbWLx' },
-  { id: 9, title: 'Manutenção Preventiva', category: 'Reparos', location: 'Diadema', description: 'Limpeza e revisão de calhas.', image: 'https://lh3.googleusercontent.com/d/1WErIe6xogvWPhSeofHWellPkG13NuV99' },
+  { id: 9, title: 'Manutenção Preventiva', category: 'Reformas', location: 'Diadema', description: 'Limpeza e revisão de calhas.', image: 'https://lh3.googleusercontent.com/d/1WErIe6xogvWPhSeofHWellPkG13NuV99' },
   { id: 10, title: 'Telhado Shingle', category: 'Telhados', location: 'SBC', description: 'Instalação de telha shingle.', image: 'https://lh3.googleusercontent.com/d/1EBdgDI4EJCsWbplguWFzL1FW3SDrJMxM' },
   { id: 11, title: 'Pergolado Moderno', category: 'Pergolados', location: 'Santo André', description: 'Design contemporâneo em madeira.', image: 'https://lh3.googleusercontent.com/d/1ye6gQT35SfpcUez1n_olc1QDqyuUZMm-' },
   { id: 12, title: 'Deck de Spa', category: 'Decks', location: 'São Caetano', description: 'Deck elevado para spa.', image: 'https://lh3.googleusercontent.com/d/1jvwunYfNzh6PICqquJ6k5M28MJZxTzuy' },
   { id: 13, title: 'Cobertura de Policarbonato', category: 'Telhados', location: 'Diadema', description: 'Leveza e transparência.', image: 'https://lh3.googleusercontent.com/d/1VMxzxHcwD4QSrOAgC4BXHI1ehObIlljF' },
-  { id: 14, title: 'Reparo de Calhas', category: 'Reparos', location: 'SBC', description: 'Substituição de calhas e rufos.', image: 'https://lh3.googleusercontent.com/d/1wOpnE6dsb8q_-FyIeNUmBaVnmvikFkNN' },
+  { id: 14, title: 'Reforma de Calhas', category: 'Reformas', location: 'SBC', description: 'Substituição de calhas e rufos.', image: 'https://lh3.googleusercontent.com/d/1wOpnE6dsb8q_-FyIeNUmBaVnmvikFkNN' },
   { id: 15, title: 'Pergolado com Vidro', category: 'Pergolados', location: 'Santo André', description: 'Proteção contra chuva com elegância.', image: 'https://lh3.googleusercontent.com/d/1z2CuROh0LyIH4JoWTCuRqUQeMyP8D_8l' },
   { id: 16, title: 'Deck de Varanda', category: 'Decks', location: 'São Caetano', description: 'Aproveitamento de espaço externo.', image: 'https://lh3.googleusercontent.com/d/1dfYHr6yUU7n62Pm6AEkp9HgXDDxGM3cq' },
   { id: 17, title: 'Telhado Termoacústico', category: 'Telhados', location: 'Diadema', description: 'Conforto térmico e acústico.', image: 'https://lh3.googleusercontent.com/d/1VsI9nnQGBohjrmnmFCghiamGyntVnV7u' },
-  { id: 18, title: 'Vedação de Laje', category: 'Reparos', location: 'SBC', description: 'Impermeabilização profissional.', image: 'https://lh3.googleusercontent.com/d/1MD_GlfZ4_Vkf2DVlCigP8arpfBxUrRR5' },
+  { id: 18, title: 'Vedação de Laje', category: 'Reformas', location: 'SBC', description: 'Impermeabilização profissional.', image: 'https://lh3.googleusercontent.com/d/1MD_GlfZ4_Vkf2DVlCigP8arpfBxUrRR5' },
   { id: 19, title: 'Pergolado Rústico', category: 'Pergolados', location: 'Santo André', description: 'Madeira bruta com charme.', image: 'https://lh3.googleusercontent.com/d/148Wx_JLVcpGEUYuYrtZuP7gI2NUsPiiZ' },
   { id: 20, title: 'Deck de Jardim', category: 'Decks', location: 'São Caetano', description: 'Integração com a natureza.', image: 'https://lh3.googleusercontent.com/d/1HalHSl11DaHnSY0GUDNVvA8o5dvZ9k8U' },
   { id: 21, title: 'Telhado de Vidro', category: 'Telhados', location: 'Diadema', description: 'Iluminação natural máxima.', image: 'https://lh3.googleusercontent.com/d/1b0v3WjUs9MOUnLC6LGK97LTgkYkl9wIq' },
-  { id: 22, title: 'Troca de Telhas', category: 'Reparos', location: 'SBC', description: 'Manutenção de telhado antigo.', image: 'https://lh3.googleusercontent.com/d/1hvzfep24jpEqqmUhviIfHphpyyd2qVpA' },
+  { id: 22, title: 'Troca de Telhas', category: 'Reformas', location: 'SBC', description: 'Manutenção de telhado antigo.', image: 'https://lh3.googleusercontent.com/d/1hvzfep24jpEqqmUhviIfHphpyyd2qVpA' },
   { id: 23, title: 'Pergolado de Garagem', category: 'Pergolados', location: 'Santo André', description: 'Proteção para veículos com estilo.', image: 'https://lh3.googleusercontent.com/d/1oeROHIwi0o59ExUPuWZTtSa8Bh9l64-J' },
   { id: 24, title: 'Deck de Madeira Plástica', category: 'Decks', location: 'São Caetano', description: 'Baixa manutenção e alta durabilidade.', image: 'https://lh3.googleusercontent.com/d/1hzg2KmRyzBm31sowqqnWl46Rv8fSnTan' },
   { id: 25, title: 'Cobertura Retrátil', category: 'Telhados', location: 'Diadema', description: 'Versatilidade para sua área.', image: 'https://lh3.googleusercontent.com/d/1W-sNSobvBp_eOnspI2fI0jF3b-5hj4x7' },
-  { id: 26, title: 'Reparo de Infiltração', category: 'Reparos', location: 'SBC', description: 'Solução definitiva para vazamentos.', image: 'https://lh3.googleusercontent.com/d/1mCM6en-JZ4PFFkE0Tv2BX6GBQNGd6OL3' },
+  { id: 26, title: 'Reforma de Infiltração', category: 'Reformas', location: 'SBC', description: 'Solução definitiva para vazamentos.', image: 'https://lh3.googleusercontent.com/d/1mCM6en-JZ4PFFkE0Tv2BX6GBQNGd6OL3' },
   { id: 27, title: 'Pergolado com Policarbonato', category: 'Pergolados', location: 'Santo André', description: 'Proteção UV e claridade.', image: 'https://lh3.googleusercontent.com/d/1DMQPfw6JB6vCWqGm0t10czKiV7U7P4KH' },
   { id: 28, title: 'Deck de Madeira Nobre', category: 'Decks', location: 'São Caetano', description: 'Acabamento de luxo.', image: 'https://lh3.googleusercontent.com/d/1BNTgsjz9XqPqTLKflqJ5EkUL8riBfWWI' },
   { id: 29, title: 'Telhado Colonial', category: 'Telhados', location: 'Diadema', description: 'Estilo clássico e resistente.', image: 'https://lh3.googleusercontent.com/d/1pE2nyrkjXjzqL8NLAkCxv09JdCbEp9ki' },
-  { id: 30, title: 'Limpeza de Telhado', category: 'Reparos', location: 'SBC', description: 'Remoção de fungos e sujeira.', image: 'https://lh3.googleusercontent.com/d/1pskBYxP4FDhFsJNVDSsMi23RnHQvCyOh' },
+  { id: 30, title: 'Limpeza de Telhado', category: 'Reformas', location: 'SBC', description: 'Remoção de fungos e sujeira.', image: 'https://lh3.googleusercontent.com/d/1pskBYxP4FDhFsJNVDSsMi23RnHQvCyOh' },
   { id: 31, title: 'Pergolado de Madeira Tratada', category: 'Pergolados', location: 'Santo André', description: 'Durabilidade garantida.', image: 'https://lh3.googleusercontent.com/d/13me0Ql4_aPgR63SzGw54b44aVCtWM6DT' },
   { id: 32, title: 'Deck de Piscina Elevado', category: 'Decks', location: 'São Caetano', description: 'Nivelamento de terreno.', image: 'https://lh3.googleusercontent.com/d/1TdqZWi8DEbCBLVA6vN6ghZojb9IGituZ' },
   { id: 33, title: 'Telhado de Cerâmica', category: 'Telhados', location: 'Diadema', description: 'Tradição e qualidade.', image: 'https://lh3.googleusercontent.com/d/1oIW3CCVMPi8MSZNwliT4bwat7p2blCun' },
-  { id: 34, title: 'Reparo de Estrutura', category: 'Reparos', location: 'SBC', description: 'Reforço de vigas e caibros.', image: 'https://lh3.googleusercontent.com/d/1IglRNrPZXlV5e86rW_9BFkeMEK_cjFq6' },
+  { id: 34, title: 'Reforma de Estrutura', category: 'Reformas', location: 'SBC', description: 'Reforço de vigas e caibros.', image: 'https://lh3.googleusercontent.com/d/1IglRNrPZXlV5e86rW_9BFkeMEK_cjFq6' },
   { id: 35, title: 'Pergolado com Forro de Palha', category: 'Pergolados', location: 'Santo André', description: 'Estilo rústico e aconchegante.', image: 'https://lh3.googleusercontent.com/d/1MoynfeKWUs6KG6ykSsOLgwroTh29eIqJ' },
   { id: 36, title: 'Deck de Madeira de Demolição', category: 'Decks', location: 'São Caetano', description: 'Sustentabilidade e beleza.', image: 'https://lh3.googleusercontent.com/d/1W9d3U4dajjNtTCjPhw7wn83RIXGASxhP' },
   { id: 37, title: 'Telhado de Fibrocimento', category: 'Telhados', location: 'Diadema', description: 'Economia e rapidez.', image: 'https://lh3.googleusercontent.com/d/1sxrj26r2kkt7qTg3gYpziBI_Ip6vCgCO' },
-  { id: 38, title: 'Reparo de Telhado Antigo', category: 'Reparos', location: 'SBC', description: 'Restauração completa.', image: 'https://lh3.googleusercontent.com/d/1ZXr56oowSzKhMpqhcjgHubr907Rs6hSy' }
+  { id: 38, title: 'Reforma de Telhado Antigo', category: 'Reformas', location: 'SBC', description: 'Restauração completa.', image: 'https://lh3.googleusercontent.com/d/1ZXr56oowSzKhMpqhcjgHubr907Rs6hSy' }
 ];
 
 const TESTIMONIALS: Testimonial[] = [
@@ -240,7 +240,7 @@ export default function App() {
     nome: '',
     whatsapp: '',
     local: '',
-    servico: 'Reparo de Telhado',
+    servico: 'Reforma de Telhado',
     mensagem: ''
   });
 
@@ -271,7 +271,7 @@ export default function App() {
           <div className="flex items-center">
             <img 
               src={scrolled ? "https://lh3.googleusercontent.com/d/1VFmBMO73S-dunwoq_2bX7miFEakMVNuG" : "https://lh3.googleusercontent.com/d/1j-1fBeGSj6Jv3DsRWgycmZdi3qpQ5TzD"} 
-              alt="Só Telhados Logo" 
+              alt="Sotelhadosp Logo" 
               className="w-[100px] h-[100px] object-contain transition-all duration-300 mb-2"
               referrerPolicy="no-referrer"
             />
@@ -361,7 +361,7 @@ export default function App() {
                 Atendimento em São Bernardo e ABC
               </div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-tight mb-6">
-                Precisa consertar ou construir seu <span className="text-orange-500">telhado</span>?
+                Precisa reformar ou construir seu <span className="text-orange-500">telhado</span>?
               </h1>
               <p className="text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl">
                 Somos especialistas em telhados, pergolados e decks. Soluções rápidas, seguras e com acabamento profissional para seu imóvel.
@@ -725,7 +725,7 @@ export default function App() {
                     value={formData.servico}
                     onChange={(e) => setFormData({...formData, servico: e.target.value})}
                   >
-                    <option>Reparo de Telhado</option>
+                    <option>Reforma de Telhado</option>
                     <option>Construção de Telhado</option>
                     <option>Pergolado</option>
                     <option>Deck de Madeira</option>
@@ -779,7 +779,7 @@ export default function App() {
               <div className="flex items-center gap-2 mb-6">
                 <img 
                   src="https://lh3.googleusercontent.com/d/1j-1fBeGSj6Jv3DsRWgycmZdi3qpQ5TzD" 
-                  alt="Só Telhados Logo" 
+                  alt="Sotelhadosp Logo" 
                   className="h-16 w-auto object-contain brightness-0 invert"
                   referrerPolicy="no-referrer"
                 />
@@ -802,7 +802,7 @@ export default function App() {
             <div>
               <h5 className="text-lg font-bold mb-6">Serviços</h5>
               <ul className="space-y-3 text-slate-400">
-                <li><a href="#" className="hover:text-orange-500 transition-colors">Reparo de Telhados</a></li>
+                <li><a href="#" className="hover:text-orange-500 transition-colors">Reforma de Telhados</a></li>
                 <li><a href="#" className="hover:text-orange-500 transition-colors">Construção de Telhados</a></li>
                 <li><a href="#" className="hover:text-orange-500 transition-colors">Pergolados sob Medida</a></li>
                 <li><a href="#" className="hover:text-orange-500 transition-colors">Decks de Madeira</a></li>
@@ -829,7 +829,7 @@ export default function App() {
           </div>
 
           <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-            <p>© 2026 Só Telhados. Todos os direitos reservados. Desenvolvido por <a href="https://nandosilvadev.site" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">Nando Silva</a>.</p>
+            <p>© 2026 Sotelhadosp. Todos os direitos reservados. Desenvolvido por <a href="https://nandosilvadev.site" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">Nando Silva</a>.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
               <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
